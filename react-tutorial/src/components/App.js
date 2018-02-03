@@ -42,4 +42,9 @@ App.defaultProps = {
     contentBody: 'Default contentBody'
 };
 
+function Hello (props) {
+    return (
+        <div>Hello {props.name}</div>
+    );
+}
 export default App;
